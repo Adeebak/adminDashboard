@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    max-height: 100vh;
+}
+
+.sidebar {
+    background-color: #1993d5;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.icons,
+.icons-header {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: white;
+    margin: 1rem;
+}
+
+.icons-header {
+    fill: black;
+    margin-left: 2.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.lower {
+    margin-top: 2.5rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    margin-right: 2rem;
+}
+
+.search {
+    border: 1px solid #e3e9f0;
+    background-color: #e3e9f0;
+    min-width: 40rem;
+    min-height: 1.5rem;
+    border-radius: 20px;
+}
+
+.icons-subheader {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: black;
+    margin: 1rem;
+    margin-left: 2.5rem;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-sub,
+.right-sub {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: #1993d5;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 1.4rem;
+    border: none;
+    margin: 1rem;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #e3e9f0;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem;
+    gap: 1rem;
+}
+
+.projects h2 {
+    align-self: center;
+}
+
+.cards,
+.announcement,
+.trending {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.cards {
+    border-left: 5px solid rgb(255, 255, 72);
+}
+
+.cards p {
+    color: #909090;
+}
+
+.sub-main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.sub-main p {
+    color: #909090;
+}
+
+.announcement {
+    border-top: 1px solid #c1c1c0;
+    padding: 2rem;
+}
+
+.announcements h2 {
+    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.trending {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.icons-main {
+    display: flex;
+    align-items: flex-end;
+    width: 4.5rem;
+    height: 2.5rem;
+    fill: black;
+    margin-left: auto;
+}
+
+.icons-submain {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: black;
+    margin: 0.5rem;
+}
